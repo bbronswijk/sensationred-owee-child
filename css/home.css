@@ -1,0 +1,10 @@
+.driehoekje{
+	display:block;
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	margin-top:-8px;
+	margin-left:1000px;
+	border-top: 5px solid #a4032c;
+	border-right: 5px solid transparent;
+}

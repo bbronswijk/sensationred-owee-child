@@ -1,0 +1,60 @@
+/*
+ Theme Name:   Sensation Red Owee
+ Theme URI:    http://wordpress.laga.nl/sensationred
+ Description:  Sensation red child theme for OWee
+ Author:       IT Laga | Bram Bronswijk  
+ Author URI:   http://laga.nl
+ Template:     sensationred
+ Version:      1.1.0
+*/
+
+
+
+.redirect a{
+	color:#fff;
+	padding:7px 10px;
+	position:absolute;
+	background:#ea1a35;
+	margin-top:-38px;
+	right:-5px;
+	width:85px;
+	box-shadow: -2px 2px 2px #e9e9e9;
+}
+
+.redirect:hover {
+	margin-left:2px;
+}
+
+
+.driehoekje{
+	display:none;
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	margin-top:-8px;
+	margin-left:1000px;
+	border-top: 5px solid #a4032c;
+	border-right: 5px solid transparent;
+}
+
+article p a, article p a strong {
+	color: #ea1a35;
+	font-weight: bold;
+
+}
+
+.content p a {
+	font-weight: bold;
+}
+
+.shortcut_menu h1{
+	text-transform: none !important;
+}
+
+@media all and (max-width : 725px) {
+	.redirect a{
+		margin-top: 5px;
+		margin-right: 15px;
+	}
+	
+}
